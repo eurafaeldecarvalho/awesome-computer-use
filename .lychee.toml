@@ -1,0 +1,8 @@
+verbose = "info"
+no_progress = true
+max_retries = 3
+timeout = 20
+max_concurrency = 4
+exclude_loopback = true
+exclude_private = true
+exclude_path = ["(^|/)logs/"]

@@ -1,0 +1,1364 @@
+schema_version: 1
+collected_on: 2026-10-29
+stale_after_days: 90
+include_commit_on_or_after: 2026-08-01
+entries:
+- stars: 119479
+  last_commit: 2026-10-26
+  last_commit_sha: 2cc71890e65056b67fdb29d98bb407749c15bb08
+  repo_last_commit: 2026-10-26
+  repo_last_commit_sha: 2cc71890e65056b67fdb29d98bb407749c15bb08
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: browser-use
+  name: Browser Use
+  github: browser-use/browser-use
+  link: https://github.com/browser-use/browser-use
+  authors: Browser Use (GitHub organization)
+  type: agent
+  interface:
+  - browser
+  models: An LLM configured by the caller. The README also documents a local model through Ollama.
+  runs_locally: partial
+  runs_locally_note: The MIT library can drive a browser on your machine. Hosted browsers and a hosted
+    agent are a separate paid product.
+  description: 'Python library that lets an LLM operate a real browser: the model picks the next click,
+    keystroke, or navigation, and the library carries it out. The same maintainers sell cloud browsers
+    beside the open-source package.'
+  sources:
+  - https://github.com/browser-use/browser-use
+  github_description: 'Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth
+    browsers and a hosted agent API.'
+- stars: 23881
+  last_commit: 2026-09-18
+  last_commit_sha: 1231850a0bf1a0c0341fe408ef1668dbbfdfac46
+  repo_last_commit: 2026-09-18
+  repo_last_commit_sha: 1231850a0bf1a0c0341fe408ef1668dbbfdfac46
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: jev-ultrafast
+  name: Jev Ultrafast
+  github: browser-use/jev-ultrafast
+  link: https://github.com/browser-use/jev-ultrafast
+  authors: Browser Use (GitHub organization)
+  type: agent
+  interface:
+  - browser
+  models: A decision model chooses an operation and an element. A smaller model writes text only when
+    the operation is typing.
+  runs_locally: partial
+  runs_locally_note: The code is open source. The README points at a Browser Use Cloud waitlist for the
+    hosted version.
+  description: Browser agent from the Browser Use project. Each observation is an indexed list of elements;
+    a decision model picks an operation and a target, and a smaller model supplies text only for typing
+    steps.
+  sources:
+  - https://github.com/browser-use/jev-ultrafast
+  github_description: Fastest and cheapest web agent
+- stars: 437
+  last_commit: 2026-10-20
+  last_commit_sha: 5569fba817446c39b662a0b9678188a9ba036d91
+  repo_last_commit: 2026-10-20
+  repo_last_commit_sha: 5569fba817446c39b662a0b9678188a9ba036d91
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: browser-use-pi
+  name: Browser Use Pi
+  github: browser-use/browser-use-pi
+  link: https://github.com/browser-use/browser-use-pi
+  authors: Browser Use (GitHub organization)
+  type: agent
+  interface:
+  - browser
+  models: The README's start snippet sets OPENROUTER_API_KEY and BROWSER_USE_API_KEY.
+  runs_locally: partial
+  runs_locally_note: The TypeScript SDK runs in your process and talks to Chrome, and the documented setup
+    uses hosted model and browser keys.
+  description: Small TypeScript browser agent. It keeps a JavaScript REPL, drives Chrome over the DevTools
+    Protocol, and reads the accessibility tree plus screenshots. The published quick start expects an
+    OpenRouter key and a Browser Use key.
+  sources:
+  - https://github.com/browser-use/browser-use-pi
+  github_description: A tiny TypeScript web agent, hill climbed on real browser evals.
+- stars: 23299
+  last_commit: 2026-10-29
+  last_commit_sha: 967fd75ba20dcb8c45be5f90ebd90d5425b7f19a
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 967fd75ba20dcb8c45be5f90ebd90d5425b7f19a
+  license_spdx: AGPL-3.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: skyvern
+  name: Skyvern
+  github: Skyvern-AI/skyvern
+  link: https://github.com/Skyvern-AI/skyvern
+  authors: Skyvern (GitHub organization Skyvern-AI)
+  type: agent
+  interface:
+  - browser
+  models: LLMs you connect. The README presents the system as LLM plus computer vision rather than a single
+    bundled model.
+  runs_locally: partial
+  runs_locally_note: The application is open source and can be self-hosted. Skyvern also offers a hosted
+    product at skyvern.com.
+  description: Python system for browser workflows. It uses a language model together with computer vision
+    so the steps follow what is on the page instead of a fixed selector script. Licensed AGPL-3.0.
+  sources:
+  - https://github.com/Skyvern-AI/skyvern
+  github_description: Automate browser based workflows with AI
+- stars: 12814
+  last_commit: 2026-10-21
+  last_commit_sha: 0fff0e634869dab72027435b4586e62300185d41
+  repo_last_commit: 2026-10-21
+  repo_last_commit_sha: 0fff0e634869dab72027435b4586e62300185d41
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: agent-s
+  name: Agent S
+  github: simular-ai/Agent-S
+  link: https://github.com/simular-ai/Agent-S
+  authors: Simular (GitHub organization simular-ai)
+  type: agent
+  interface:
+  - desktop-linux
+  - desktop-macos
+  - desktop-windows
+  - browser
+  models: Whichever multimodal model the framework is pointed at. The README also links a hosted Simular
+    API.
+  runs_locally: partial
+  runs_locally_note: The framework runs on a machine you control. Simular additionally sells a hosted
+    computer API.
+  description: Simular's GUI agent for desktop and web apps on macOS, Windows, and Linux. A written task
+    goes in; pointer and keyboard actions come out. The repository also links a hosted Simular API, which
+    this list did not call.
+  sources:
+  - https://github.com/simular-ai/Agent-S
+  github_description: 'Agent S: the state-of-the-art open source computer use agents'
+- stars: 39437
+  last_commit: 2026-10-09
+  last_commit_sha: 3ac2cb8d946d78d5ff92ad17b318eaafa18c178c
+  repo_last_commit: 2026-10-09
+  repo_last_commit_sha: 3ac2cb8d946d78d5ff92ad17b318eaafa18c178c
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: ui-tars-desktop
+  name: UI-TARS Desktop
+  github: bytedance/UI-TARS-desktop
+  link: https://github.com/bytedance/UI-TARS-desktop
+  authors: ByteDance (GitHub organization bytedance)
+  type: agent
+  interface:
+  - desktop
+  - browser
+  models: The UI-TARS vision-language model, plus other multimodal models the Agent TARS stack can call.
+  runs_locally: partial
+  runs_locally_note: UI-TARS Desktop ships local and remote computer operators. Agent TARS also runs as
+    a CLI. Model weights are separate from the app.
+  description: ByteDance's multimodal agent stack. The same repository ships Agent TARS, which brings
+    GUI actions into a terminal workflow, and UI-TARS Desktop, a native app with operators for a local
+    computer, a remote computer, and a browser. The README is in English and links a Chinese translation.
+  sources:
+  - https://github.com/bytedance/UI-TARS-desktop
+  github_description: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and
+    Agent Infra'
+- stars: 3175
+  last_commit: 2026-09-14
+  last_commit_sha: 88c777bddfec9796667445873886a3563aa27246
+  repo_last_commit: 2026-09-14
+  repo_last_commit_sha: 88c777bddfec9796667445873886a3563aa27246
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: turix-cua
+  name: TuriX-CUA
+  github: TurixAI/TuriX-CUA
+  link: https://github.com/TurixAI/TuriX-CUA
+  authors: TurixAI (GitHub organization)
+  type: agent
+  interface:
+  - desktop
+  models: Whichever model you set in config.json. The README tells you to change that file rather than
+    bundling one model.
+  runs_locally: partial
+  runs_locally_note: The agent code is meant to run on your computer. The model endpoint is your own configuration,
+    so inference may be remote.
+  description: Desktop computer-use agent from TurixAI. It takes actions on the machine it is installed
+    on, and the README says the model is selected in config.json. The README is English and links a Chinese
+    translation. This list did not reproduce the benchmark figures printed there.
+  sources:
+  - https://github.com/TurixAI/TuriX-CUA
+  github_description: This is the official website for TuriX Computer-use-Agent
+- stars: 3969
+  last_commit: 2026-09-17
+  last_commit_sha: afb89b9d67a2d7c49ca09298191fbebe9ded238a
+  repo_last_commit: 2026-09-17
+  repo_last_commit_sha: afb89b9d67a2d7c49ca09298191fbebe9ded238a
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: master
+  id: automate
+  name: autoMate
+  github: yuruotong1/autoMate
+  link: https://github.com/yuruotong1/autoMate
+  authors: yuruotong1 (GitHub user)
+  type: agent
+  interface:
+  - browser
+  - desktop
+  models: The README shows it sitting behind several chat clients (Claude Desktop, Cursor, Cline, and
+    others) rather than one bundled model.
+  runs_locally: 'yes'
+  description: Local assistant that keeps notes and files on the machine where it is installed and exposes
+    them over MCP and HTTP. The current README includes shell, browser, and desktop actions, plus control
+    of the user's Chrome through an extension.
+  sources:
+  - https://github.com/yuruotong1/autoMate
+  github_description: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven
+    local automation assistant that uses natural language to make computers work by themselves
+- stars: 807
+  last_commit: 2026-10-28
+  last_commit_sha: 0b4a9f368ff52b8413cb55b1f0a97fd4256f84f8
+  repo_last_commit: 2026-10-28
+  repo_last_commit_sha: 0b4a9f368ff52b8413cb55b1f0a97fd4256f84f8
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: autocua
+  name: AutoCua
+  github: ComputerUseAgent/AutoCua
+  link: https://github.com/ComputerUseAgent/AutoCua
+  authors: ComputerUseAgent (GitHub organization)
+  type: agent
+  interface:
+  - desktop-linux
+  - desktop-macos
+  - desktop-windows
+  - browser
+  models: The README says the project can call many models across several providers. No single model is
+    bundled in the description used here.
+  runs_locally: partial
+  runs_locally_note: Desktop input is described as happening on the machine. Model calls depend on the
+    provider you configure. Phone control is also claimed in the README.
+  description: Python harness that drives macOS, Windows, Linux, and a browser, and the README also claims
+    phone control. Desktop actions are described as real hardware events. The browser side is described
+    as Rust plus a Chrome extension.
+  sources:
+  - https://github.com/ComputerUseAgent/AutoCua
+  github_description: Automate with computer-use agent (ComputerUse / CUA) for macOS, Windows, Linux,
+    Browser, iOS & Android. It sees the screen, clicks, types, browses and writes the code too. One agent,
+    every computer.
+- stars: 548
+  last_commit: 2026-10-26
+  last_commit_sha: 55c33aea792b48b9c1330a514bfcc8f6d3ecc704
+  repo_last_commit: 2026-10-26
+  repo_last_commit_sha: 55c33aea792b48b9c1330a514bfcc8f6d3ecc704
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: opengcua
+  name: OpenGCUA
+  github: Tongyi-MAI/OpenGCUA
+  link: https://github.com/Tongyi-MAI/OpenGCUA
+  authors: Hanzhang Zhou, Long Li, Quyu Kong, and co-authors. Repository published by Tongyi-MAI.
+  type: agent
+  interface:
+  - desktop-macos
+  - browser
+  - desktop
+  models: The technical report evaluates several external models. This list did not re-run those evaluations.
+  runs_locally: partial
+  runs_locally_note: The repository includes a macOS harness and prompts. The paper also describes a cross-device
+    SDK. This list did not install the harness.
+  description: Open stack from Tongyi-MAI for a generalist computer-use agent that can mix GUI actions
+    with code execution. The release includes prompts and evaluation trajectories. The paper is arXiv:2610.22200.
+  sources:
+  - https://github.com/Tongyi-MAI/OpenGCUA
+  - https://arxiv.org/abs/2610.22200
+  github_description: An open-source stack for generalist computer-use agents, combining code execution,
+    GUI interaction, and cross-device control.
+- stars: 14203
+  last_commit: 2026-10-24
+  last_commit_sha: 19dc8e8a9be6ed06c0ef9ec7de8d84bf6a88c458
+  repo_last_commit: 2026-10-24
+  repo_last_commit_sha: 19dc8e8a9be6ed06c0ef9ec7de8d84bf6a88c458
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: master
+  id: nanobrowser
+  name: Nanobrowser
+  github: nanobrowser/nanobrowser
+  link: https://github.com/nanobrowser/nanobrowser
+  authors: Nanobrowser (GitHub organization)
+  type: agent
+  interface:
+  - browser
+  models: Whatever model key you put in the extension. The project does not ship a model.
+  runs_locally: 'yes'
+  description: Chrome extension that runs an agent inside the browser profile you already use, so it can
+    see sites where that profile is logged in. Automation stays in the browser; it is not a desktop mouse
+    driver.
+  sources:
+  - https://github.com/nanobrowser/nanobrowser
+  github_description: Open-source AI agent for web automation. Use your real, logged-in browser to automate
+    daily tasks.
+- stars: 10294
+  last_commit: 2026-10-19
+  last_commit_sha: eb8165a2efb1b34d66a28ecebf8ca97ae67cbb79
+  repo_last_commit: 2026-10-19
+  repo_last_commit_sha: eb8165a2efb1b34d66a28ecebf8ca97ae67cbb79
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: self-operating-computer
+  name: Self-Operating Computer
+  github: OthersideAI/self-operating-computer
+  link: https://github.com/OthersideAI/self-operating-computer
+  authors: OthersideAI (GitHub organization)
+  type: agent
+  interface:
+  - desktop
+  models: The README lists integrations including GPT-4o, GPT-4.1, o1, Gemini, Claude 3, Qwen-VL, and
+    LLaVA. Those are options, not models this list ran.
+  runs_locally: partial
+  runs_locally_note: The framework runs on the computer it controls. The model is usually a remote multimodal
+    API.
+  description: Python framework from OthersideAI that shows a multimodal model the screen and applies
+    the mouse and keyboard actions it returns. The README dates the first release to November 2023; the
+    default branch was still moving in October 2026.
+  sources:
+  - https://github.com/OthersideAI/self-operating-computer
+  github_description: A framework to enable a multimodal model to operate a computer.
+- stars: 125
+  last_commit: 2026-10-26
+  last_commit_sha: ac985d222ed8e57ce40bfaeb69d5769e776445d6
+  repo_last_commit: 2026-10-26
+  repo_last_commit_sha: ac985d222ed8e57ce40bfaeb69d5769e776445d6
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: deskmind
+  name: DeskMind
+  github: deskmind-ai/deskmind
+  link: https://github.com/deskmind-ai/deskmind
+  authors: DeskMind (GitHub organization deskmind-ai)
+  type: agent
+  interface:
+  - desktop-macos
+  models: Small on-device MLX models published by the project. The README says they run on the Mac.
+  runs_locally: 'yes'
+  description: macOS computer-use app that reads the screen, picks the next step, and acts with small
+    models running on that Mac. The README says it asks the user when a step is ambiguous instead of guessing.
+  sources:
+  - https://github.com/deskmind-ai/deskmind
+  github_description: Small enough to run on your Mac. Smart enough to ask. An open-source computer use
+    agent for macOS, with local models (MLX) that see, decide and act. 得心，应手。
+- stars: 2391
+  last_commit: 2026-10-23
+  last_commit_sha: ee1025911c36e1f28bb3400c7d81170a8482f35d
+  repo_last_commit: 2026-10-23
+  repo_last_commit_sha: ee1025911c36e1f28bb3400c7d81170a8482f35d
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: master
+  id: open-computer-use
+  name: Open Computer Use
+  github: e2b-dev/open-computer-use
+  link: https://github.com/e2b-dev/open-computer-use
+  authors: E2B (GitHub organization e2b-dev)
+  type: agent
+  interface:
+  - desktop-linux
+  models: Open-source LLMs, plus OS-Atlas, ShowUI, and other models the README says can be plugged in.
+  runs_locally: 'no'
+  runs_locally_note: The agent code is open source, but the desktop it controls is an E2B cloud sandbox,
+    not the machine where you cloned the repo.
+  description: Agent that controls a cloud Linux desktop with the keyboard, the mouse, and the shell.
+    The desktop is an E2B sandbox, and the README says the model can be an open-source LLM. The client
+    can stream that display.
+  sources:
+  - https://github.com/e2b-dev/open-computer-use
+  github_description: AI computer use powered by open source LLMs and E2B Desktop Sandbox
+- stars: 873
+  last_commit: 2026-10-13
+  last_commit_sha: d66db293ac513a98abe1fd5c58a69b5130e4a996
+  repo_last_commit: 2026-10-13
+  repo_last_commit_sha: d66db293ac513a98abe1fd5c58a69b5130e4a996
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: surf
+  name: Surf
+  github: e2b-dev/surf
+  link: https://github.com/e2b-dev/surf
+  authors: E2B (GitHub organization e2b-dev)
+  type: agent
+  interface:
+  - desktop
+  models: OpenAI's computer-use API, as stated in the repository README.
+  runs_locally: partial
+  runs_locally_note: The Next.js app can be run from the repository. The desktop it drives is an E2B cloud
+    sandbox and the model is OpenAI's.
+  description: Web app that connects OpenAI's computer-use API to an E2B virtual desktop. You type a task,
+    and the agent acts on that remote desktop while the page shows the session.
+  sources:
+  - https://github.com/e2b-dev/surf
+  github_description: Surf is a computer use AI agent powered by OpenAI that interacts with a E2B's virtual
+    desktop environment through natural language instructions
+- stars: 19048
+  last_commit: 2026-10-29
+  last_commit_sha: 12349bb27f860fa924780ba6c0d8c011dfecf540
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 1a18c340ca42b9137d991637afe867bdcf70a9ce
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: anthropic-computer-use-demo
+  name: Anthropic Computer Use Demo
+  github: anthropics/claude-quickstarts
+  github_path: computer-use-demo
+  link: https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo
+  authors: Anthropic (GitHub organization anthropics)
+  type: agent
+  interface:
+  - desktop-linux
+  models: Claude models through the Anthropic API, Bedrock, or Vertex. The demo README names Opus 4.8
+    as the default at the time it was read.
+  runs_locally: partial
+  runs_locally_note: The reference loop runs in a Docker container with a Linux desktop (X11 and VNC)
+    on a machine you control. Model calls go to Anthropic, Bedrock, or Vertex.
+  description: 'Reference desktop agent from Anthropic: a Dockerized Linux desktop controlled through
+    Claude''s computer-use tools, with a Streamlit UI. It lives in the claude-quickstarts repository,
+    which also contains unrelated demos.'
+  sources:
+  - https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo
+  github_description: A collection of projects designed to help developers quickly get started with building
+    deployable applications using the Claude API
+- stars: 31293
+  last_commit: 2026-10-29
+  last_commit_sha: b269d38db580afbd7b9f3b1d8409d0df540e1b21
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: b269d38db580afbd7b9f3b1d8409d0df540e1b21
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: cua
+  name: Cua
+  github: trycua/cua
+  link: https://github.com/trycua/cua
+  authors: trycua (GitHub organization)
+  type: harness
+  interface:
+  - desktop-linux
+  - desktop-macos
+  - desktop-windows
+  models: The README describes CUA-S1 decision models in this repository, and the stack can also call
+    external models.
+  runs_locally: partial
+  runs_locally_note: Lume runs local VMs on a Mac, and the README also describes Cua Spaces desktops on
+    machines you own. A hosted product sits beside the open-source stack.
+  description: 'Open-source computer-use stack: desktop drivers, local virtual machines, decision models,
+    and a benchmark. The README also points at Cua Spaces, which gives an agent a full desktop.'
+  sources:
+  - https://github.com/trycua/cua
+  github_description: Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks
+    for training, evaluation, and data generation.
+- stars: 25858
+  last_commit: 2026-10-29
+  last_commit_sha: 44d99dfbdd24baaf06986492792348582266d8f0
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 44d99dfbdd24baaf06986492792348582266d8f0
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: stagehand
+  name: Stagehand
+  github: browserbase/stagehand
+  link: https://github.com/browserbase/stagehand
+  authors: Browserbase (GitHub organization browserbase)
+  type: harness
+  interface:
+  - browser
+  models: The SDK is called with a model you choose. Browserbase documents computer-use modes for several
+    providers; this list did not execute them.
+  runs_locally: partial
+  runs_locally_note: Stagehand can drive a local browser or Browserbase's hosted browsers.
+  description: SDK for browser agents from Browserbase. You mix ordinary browser commands with natural-language
+    steps, and the same API can target a browser on your machine or a Browserbase session.
+  sources:
+  - https://github.com/browserbase/stagehand
+  github_description: The SDK to extract data and interact with any site on the web. Get started with
+    Claude Code, Codex, Eve, Mastra, and more.
+- stars: 18701
+  last_commit: 2026-10-25
+  last_commit_sha: 4ced8e0087d2d45ea2d08c00cb62449b2d94a90e
+  repo_last_commit: 2026-10-25
+  repo_last_commit_sha: 4ced8e0087d2d45ea2d08c00cb62449b2d94a90e
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: browser-harness
+  name: Browser Harness
+  github: browser-use/browser-harness
+  link: https://github.com/browser-use/browser-harness
+  authors: Browser Use (GitHub organization)
+  type: harness
+  interface:
+  - browser
+  models: None of its own. A coding agent you already run (the README names Claude Code, Codex, and Cursor)
+    decides what to do.
+  runs_locally: 'yes'
+  description: Harness that lets a coding agent drive the Chrome already running on your machine, including
+    pages where you are logged in, over the DevTools Protocol. The agent can add helper code as a task
+    needs it.
+  sources:
+  - https://github.com/browser-use/browser-harness
+  github_description: Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt
+    to set up. Open source, MIT.
+- stars: 973
+  last_commit: 2026-10-15
+  last_commit_sha: 43d9edf8286153482348b15f7d8c22d9e38f6c6b
+  repo_last_commit: 2026-10-15
+  repo_last_commit_sha: 43d9edf8286153482348b15f7d8c22d9e38f6c6b
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: macos-harness
+  name: macOS Harness
+  github: browser-use/macos-harness
+  link: https://github.com/browser-use/macos-harness
+  authors: Browser Use (GitHub organization)
+  type: harness
+  interface:
+  - desktop-macos
+  models: None of its own. A coding agent calls the CLI; the model is whatever that agent uses.
+  runs_locally: 'yes'
+  description: Command-line harness for macOS. It reads an app through the accessibility tree and clicks
+    or types in the background, without moving the user's pointer or pulling that app to the front.
+  sources:
+  - https://github.com/browser-use/macos-harness
+  github_description: The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.
+- stars: 4241
+  last_commit: 2026-10-23
+  last_commit_sha: f00e27edd7f17600463ce37effa951f42ccb91c8
+  repo_last_commit: 2026-10-23
+  repo_last_commit_sha: f00e27edd7f17600463ce37effa951f42ccb91c8
+  license_spdx: AGPL-3.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: workflow-use
+  name: Workflow Use
+  github: browser-use/workflow-use
+  link: https://github.com/browser-use/workflow-use
+  authors: Browser Use (GitHub organization)
+  type: harness
+  interface:
+  - browser
+  models: Deterministic steps do not call a model. If a step fails, the README says execution falls back
+    to Browser Use, which does call one.
+  runs_locally: partial
+  runs_locally_note: The recorder and runner are open source. The README says the project is early and
+    not recommended for production, and it links Browser Use Cloud.
+  description: Records a browser workflow into a deterministic script with variables, and falls back to
+    the Browser Use agent when a step fails. Licensed AGPL-3.0. The README warns that it is still early.
+  sources:
+  - https://github.com/browser-use/workflow-use
+  github_description: ⚙️ Create and run workflows (RPA 2.0)
+- stars: 1914
+  last_commit: 2026-10-19
+  last_commit_sha: 6dd34b40acc1d002696ccd41aaf0a1f2f2be290c
+  repo_last_commit: 2026-10-19
+  repo_last_commit_sha: 6dd34b40acc1d002696ccd41aaf0a1f2f2be290c
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: openai-cua-sample
+  name: OpenAI CUA sample
+  github: openai/openai-cua-sample-app
+  link: https://github.com/openai/openai-cua-sample-app
+  authors: OpenAI (GitHub organization openai)
+  type: harness
+  interface:
+  - browser
+  - desktop
+  models: OpenAI models through the Responses API. The sample does not include a local model.
+  runs_locally: partial
+  runs_locally_note: Both samples run on a machine you control. Every model call needs an OpenAI API key.
+  description: Two sample agents from OpenAI. One controls a browser from JavaScript with Playwright.
+    The other controls a desktop from Python with PyAutoGUI, using screenshots plus mouse and keyboard
+    input. Both call the Responses API.
+  sources:
+  - https://github.com/openai/openai-cua-sample-app
+  github_description: Learn how to use CUA (our Computer Using Agent) via the API on multiple computer
+    environments.
+- stars: 218
+  last_commit: 2026-10-25
+  last_commit_sha: cc0c96e9135d22a921c53819e72a4100729eae18
+  repo_last_commit: 2026-10-25
+  repo_last_commit_sha: cc0c96e9135d22a921c53819e72a4100729eae18
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: langgraph-cua
+  name: LangGraph CUA
+  github: langchain-ai/langgraph-cua-py
+  link: https://github.com/langchain-ai/langgraph-cua-py
+  authors: LangChain (GitHub organization langchain-ai)
+  type: harness
+  interface:
+  - desktop
+  - browser
+  models: A computer-use model behind the LangGraph loop. The README does not pin a single provider in
+    its opening section.
+  runs_locally: partial
+  runs_locally_note: The library is local Python. The computer it drives and the model it calls depend
+    on how you configure it. This list did not run it.
+  description: Python library that builds a computer-use loop on LangGraph, with the streaming and human-approval
+    features LangGraph already has. The README points at a TypeScript sibling inside the LangGraph.js
+    repository.
+  sources:
+  - https://github.com/langchain-ai/langgraph-cua-py
+  github_description: An implementation of a computer use agent (CUA) using LangGraph
+- stars: 1846
+  last_commit: 2026-10-29
+  last_commit_sha: c3cc84de2aee993c06cf8db6fa5f60d28af1bad3
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: c3cc84de2aee993c06cf8db6fa5f60d28af1bad3
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: openadapt
+  name: OpenAdapt
+  github: OpenAdaptAI/OpenAdapt
+  link: https://github.com/OpenAdaptAI/OpenAdapt
+  authors: OpenAdaptAI (GitHub organization)
+  type: harness
+  interface:
+  - desktop
+  - browser
+  models: The replay path is described as not calling a model. A person or an agent may be the one who
+    demonstrates the original task.
+  runs_locally: 'yes'
+  description: Turns a demonstrated GUI task into a local program that repeats the steps and checks each
+    result. The README frames it as an execution layer for computer-use agents, aimed at apps people click
+    through, including remote desktops.
+  sources:
+  - https://github.com/OpenAdaptAI/OpenAdapt
+  github_description: For EHRs, payer portals, and any app your team clicks through. A person or an agent
+    shows the task; OpenAdapt turns it into a local program that repeats the steps with no model calls,
+    checks each save, and stops when something doesn't match.
+- stars: 324
+  last_commit: 2026-10-08
+  last_commit_sha: 6b353039111c08c2c64c5229083606941e364eaf
+  repo_last_commit: 2026-10-08
+  repo_last_commit_sha: 6b353039111c08c2c64c5229083606941e364eaf
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: master
+  id: arc-cua
+  name: arc-cua
+  github: shhivv/arc-cua
+  link: https://github.com/shhivv/arc-cua
+  authors: shhivv (GitHub user)
+  type: harness
+  interface:
+  - desktop-macos
+  models: The driver needs no model. The separate decision loop, also in this repository, calls a decision
+    model.
+  runs_locally: partial
+  runs_locally_note: arc-driver runs on the Mac and does not need an API key. The decision-model loop
+    in the same package does.
+  description: macOS package with two tools. arc-driver lets an agent read a window and act on it in the
+    background. arc-cua is a separate loop in which a decision model clicks through a bounded subtask.
+  sources:
+  - https://github.com/shhivv/arc-cua
+  github_description: Superfast action layer for computer-use agents, on MacOS.
+- stars: 15431
+  last_commit: 2026-10-29
+  last_commit_sha: ca96b51d504f760eb9e6a4d13633d276d9b22738
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: ca96b51d504f760eb9e6a4d13633d276d9b22738
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: midscene
+  name: Midscene
+  github: web-infra-dev/midscene
+  link: https://github.com/web-infra-dev/midscene
+  authors: web-infra-dev (GitHub organization)
+  type: harness
+  interface:
+  - browser
+  - desktop
+  models: A vision model you configure for the test steps. The package does not ship weights.
+  runs_locally: partial
+  runs_locally_note: The test runner is a local JavaScript framework. Each natural-language step calls
+    a vision model, which may be remote.
+  description: JavaScript test framework that uses a vision model to drive interfaces written as natural-language
+    steps. The README covers web, mobile, and desktop apps. The English README links a Chinese translation.
+  sources:
+  - https://github.com/web-infra-dev/midscene
+  github_description: See interfaces like a human. E2E testing in natural language.
+- stars: 2049
+  last_commit: 2026-10-29
+  last_commit_sha: 083a4cd758ee9417a465d948bcc1587e9f453581
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 083a4cd758ee9417a465d948bcc1587e9f453581
+  license_spdx: NOASSERTION
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: notte
+  name: Notte
+  github: nottelabs/notte
+  link: https://github.com/nottelabs/notte
+  authors: Notte (GitHub organization nottelabs)
+  type: tool
+  interface:
+  - browser
+  models: Infrastructure and a Playwright-based framework. Agents you attach bring their own models.
+  runs_locally: partial
+  runs_locally_note: The repository includes a browser framework you can run, and the product also sells
+    stealth cloud browsers and serverless functions.
+  license_file_spdx: SSPL-1.0
+  description: 'Browser infrastructure for agents: cloud browsers, a Playwright-based framework, and serverless
+    functions for web automation. The LICENSE file is the Server Side Public License, version 1. GitHub''s
+    API reports NOASSERTION for that file.'
+  sources:
+  - https://github.com/nottelabs/notte
+  github_description: Cloud browser infrastructure and web automation platform for your AI and coding
+    agents
+- stars: 44847
+  last_commit: 2026-10-29
+  last_commit_sha: 1453dd37a40c730fe00f592bc32198a896ff8747
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 1453dd37a40c730fe00f592bc32198a896ff8747
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: agent-browser
+  name: agent-browser
+  github: vercel-labs/agent-browser
+  link: https://github.com/vercel-labs/agent-browser
+  authors: Vercel Labs (GitHub organization vercel-labs)
+  type: tool
+  interface:
+  - browser
+  models: None. It is a browser CLI for an agent to call. This list drove it with hand-written commands
+    and no model.
+  runs_locally: 'yes'
+  description: Rust command-line browser aimed at AI agents. Commands open a page, read an accessibility
+    snapshot, click, and fill fields. Version 0.41.0 from npm was run against this repo's local form;
+    see the log. That run was not a model deciding the steps.
+  sources:
+  - https://github.com/vercel-labs/agent-browser
+  verified_run:
+    kind: run
+    date: 2026-10-29
+    version: agent-browser 0.41.0
+    how: npm package agent-browser 0.41.0 was installed in a disposable Linux VM and driven with explicit
+      CLI commands against the local bench page. No model selected the actions. The CLI filled the three
+      fields and saved result.csv. The shared task stays not tested.
+    log: logs/agent-browser/2026-10-29.md
+  github_description: Browser automation CLI for AI agents
+- stars: 38813
+  last_commit: 2026-10-22
+  last_commit_sha: 0c4107acbecb75472b23c05c0e42471a0011874f
+  repo_last_commit: 2026-10-22
+  repo_last_commit_sha: 0c4107acbecb75472b23c05c0e42471a0011874f
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: playwright-mcp
+  name: Playwright MCP
+  github: microsoft/playwright-mcp
+  link: https://github.com/microsoft/playwright-mcp
+  authors: Microsoft (GitHub organization microsoft)
+  type: tool
+  interface:
+  - browser
+  models: None of its own. An MCP client supplies the model that decides which tool to call.
+  runs_locally: 'yes'
+  description: MCP server that lets a model drive a browser through Playwright accessibility snapshots
+    instead of screenshots. The README contrasts it with the Playwright CLI, which targets coding agents
+    that prefer shell commands.
+  sources:
+  - https://github.com/microsoft/playwright-mcp
+  github_description: Playwright MCP server
+- stars: 14750
+  last_commit: 2026-10-19
+  last_commit_sha: b1a5903c5b633b8c9f843ad7b629c2a78437040c
+  repo_last_commit: 2026-10-19
+  repo_last_commit_sha: b1a5903c5b633b8c9f843ad7b629c2a78437040c
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: playwright-cli
+  name: Playwright CLI
+  github: microsoft/playwright-cli
+  link: https://github.com/microsoft/playwright-cli
+  authors: Microsoft (GitHub organization microsoft)
+  type: tool
+  interface:
+  - browser
+  models: None of its own. A coding agent, or a person, invokes the commands.
+  runs_locally: 'yes'
+  description: Command-line interface to Playwright for coding agents. The npm package @playwright/cli
+    0.1.22, whose registry metadata points at this repository, was run against the local form with explicit
+    commands and no model. See the log. The shared task stays not tested.
+  sources:
+  - https://github.com/microsoft/playwright-cli
+  verified_run:
+    kind: run
+    date: 2026-10-29
+    version: '@playwright/cli 0.1.22'
+    how: npm package @playwright/cli 0.1.22 was installed in a disposable Linux VM. Explicit CLI commands
+      opened the local bench page, filled the three fields, and the tool saved result.csv. No model selected
+      the actions. The shared task stays not tested.
+    log: logs/playwright-cli/2026-10-29.md
+  github_description: CLI for common Playwright actions. Record and generate Playwright code, inspect
+    selectors and take screenshots.
+- stars: 54429
+  last_commit: 2026-10-29
+  last_commit_sha: 3c609da38a39067f4a0b885ce81968eb958b76a8
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 3c609da38a39067f4a0b885ce81968eb958b76a8
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: chrome-devtools-mcp
+  name: Chrome DevTools MCP
+  github: ChromeDevTools/chrome-devtools-mcp
+  link: https://github.com/ChromeDevTools/chrome-devtools-mcp
+  authors: Chrome DevTools (GitHub organization ChromeDevTools)
+  type: tool
+  interface:
+  - browser
+  models: None of its own. A coding agent is the client.
+  runs_locally: 'yes'
+  description: MCP server and CLI from the Chrome DevTools team. A coding agent can inspect and automate
+    a live Chrome, including network logs, console messages, screenshots, and performance traces, with
+    Puppeteer underneath.
+  sources:
+  - https://github.com/ChromeDevTools/chrome-devtools-mcp
+  github_description: Chrome DevTools for coding agents
+- stars: 7888
+  last_commit: 2026-10-29
+  last_commit_sha: 95cef883cc13e75ec03a2a519a94f79de946d0d2
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 95cef883cc13e75ec03a2a519a94f79de946d0d2
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: steel-browser
+  name: Steel
+  github: steel-dev/steel-browser
+  link: https://github.com/steel-dev/steel-browser
+  authors: Steel (GitHub organization steel-dev)
+  type: tool
+  interface:
+  - browser
+  models: None. It is a browser sandbox and API that an agent connects to.
+  runs_locally: partial
+  runs_locally_note: The server is open source and can be self-hosted. Steel also runs a hosted browser
+    API at steel.dev.
+  description: Open-source browser sandbox and HTTP API for agents that need a live page, session management,
+    and the usual browser-automation extras. A hosted service is sold separately.
+  sources:
+  - https://github.com/steel-dev/steel-browser
+  github_description: 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included
+    browser sandbox that lets you automate the web without worrying about infrastructure.
+- stars: 1544
+  last_commit: 2026-10-27
+  last_commit_sha: 053ffe2ff7dc472d3d887d0906c9523648c349e9
+  repo_last_commit: 2026-10-27
+  repo_last_commit_sha: 053ffe2ff7dc472d3d887d0906c9523648c349e9
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: e2b-desktop
+  name: E2B Desktop
+  github: e2b-dev/desktop
+  link: https://github.com/e2b-dev/desktop
+  authors: E2B (GitHub organization e2b-dev)
+  type: tool
+  interface:
+  - desktop-linux
+  models: None. You connect your own model to the sandbox.
+  runs_locally: 'no'
+  runs_locally_note: This repository keeps the sandbox template and examples. The README says the desktop
+    SDK source moved to the E2B monorepo, and the public sandboxes are cloud VMs.
+  description: Desktop sandbox image for running computer-use agents on an isolated Linux GUI. The README
+    points examples at E2B's hosted sandboxes and says the JavaScript and Python SDK sources now live
+    in the E2B monorepo.
+  sources:
+  - https://github.com/e2b-dev/desktop
+  github_description: E2B Desktop Sandbox for LLMs. E2B Sandbox with desktop graphical environment that
+    you can connect to any LLM for secure computer use.
+- stars: 37558
+  last_commit: 2026-10-29
+  last_commit_sha: bfb784fdfb7692db785acbe6d2af6a59d6fdff87
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: bfb784fdfb7692db785acbe6d2af6a59d6fdff87
+  license_spdx: AGPL-3.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: lightpanda
+  name: Lightpanda
+  github: lightpanda-io/browser
+  link: https://github.com/lightpanda-io/browser
+  authors: Lightpanda (GitHub organization lightpanda-io)
+  type: tool
+  interface:
+  - browser
+  models: None. It is a browser engine, not an agent.
+  runs_locally: 'yes'
+  description: Headless browser written in Zig for automation and agents, not a Chromium fork. It speaks
+    the DevTools Protocol so Playwright and Puppeteer can attach. Licensed AGPL-3.0. It does not decide
+    what to click.
+  sources:
+  - https://github.com/lightpanda-io/browser
+  github_description: 'Lightpanda: the headless browser designed for AI and automation'
+- stars: 767
+  last_commit: 2026-10-29
+  last_commit_sha: ab17e476319bf42662138751a81a8125cee54255
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: ab17e476319bf42662138751a81a8125cee54255
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: computer-use-linux
+  name: computer-use-linux
+  github: agent-sh/computer-use-linux
+  link: https://github.com/agent-sh/computer-use-linux
+  authors: agent-sh (GitHub organization)
+  type: tool
+  interface:
+  - desktop-linux
+  models: None of its own. MCP clients and the CLI call it. A model is optional and external.
+  runs_locally: 'yes'
+  description: 'Native Linux desktop control for agents: accessibility trees, screenshots, window targeting,
+    and input, exposed as an MCP server, a CLI, and Pi tools. Version 0.7.32 was run on this VM; it listed
+    X11 windows only after wmctrl was installed, and it did not complete the form task. See the log.'
+  sources:
+  - https://github.com/agent-sh/computer-use-linux
+  verified_run:
+    kind: run
+    date: 2026-10-29
+    version: '@agent-sh/computer-use-linux 0.7.32'
+    how: npm package @agent-sh/computer-use-linux 0.7.32 was installed in a disposable Linux VM. doctor
+      exited 0. apps failed because AT-SPI was unavailable. windows listed three X11 windows only after
+      wmctrl was installed. The shared form task was not run and stays not tested.
+    log: logs/computer-use-linux/2026-10-29.md
+  github_description: Native Linux desktop control for AI agents (MCP, Pi, CLI) — semantic AT-SPI trees,
+    screenshots, window targeting, and input across GNOME, KDE, Hyprland, niri, COSMIC, i3, and X11.
+- stars: 3241
+  last_commit: 2026-10-24
+  last_commit_sha: 044bc33901cb893808e3f91ebc9a17ed8e54b44c
+  repo_last_commit: 2026-10-24
+  repo_last_commit_sha: 044bc33901cb893808e3f91ebc9a17ed8e54b44c
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: osworld
+  name: OSWorld
+  github: xlang-ai/OSWorld
+  link: https://github.com/xlang-ai/OSWorld
+  authors: Tianbao Xie, Danyang Zhang, Jixuan Chen, and co-authors. Repository published by xlang-ai.
+  type: benchmark
+  interface:
+  - desktop
+  models: Any agent you plug into the environment. The benchmark is not a model.
+  runs_locally: partial
+  runs_locally_note: Tasks run inside virtual machines. You can host those VMs; the benchmark is not a
+    single local CLI.
+  description: Benchmark of open-ended tasks in real desktop environments, from the XLang lab. Agents
+    are scored inside virtual machines rather than on a simulated DOM. The paper is arXiv:2404.07972.
+  sources:
+  - https://github.com/xlang-ai/OSWorld
+  - https://arxiv.org/abs/2404.07972
+  github_description: '[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in
+    Real Computer Environments'
+- stars: 401
+  last_commit: 2026-10-15
+  last_commit_sha: d9953673daf55381237e058fd9388cc2d74c5538
+  repo_last_commit: 2026-10-15
+  repo_last_commit_sha: d9953673daf55381237e058fd9388cc2d74c5538
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: osworld-v2
+  name: OSWorld V2
+  github: xlang-ai/OSWorld-V2
+  link: https://github.com/xlang-ai/OSWorld-V2
+  authors: Mengqi Yuan, Zilong Zhou, Xinzhuang Xiong, and co-authors. Repository published by xlang-ai.
+  type: benchmark
+  interface:
+  - desktop
+  models: Any computer-use agent the harness can run. This list did not run the benchmark.
+  runs_locally: partial
+  runs_locally_note: The tasks and trajectories are published. Running them requires the benchmark's desktop
+    environment, which this list did not provision.
+  description: Longer-horizon follow-on to OSWorld for computer-use agents. Tasks and trajectories are
+    published from this repository, including copies on Hugging Face linked from the README. The paper
+    is arXiv:2606.29537.
+  sources:
+  - https://github.com/xlang-ai/OSWorld-V2
+  - https://arxiv.org/abs/2606.29537
+  github_description: 'OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks'
+- stars: 913
+  last_commit: 2026-10-26
+  last_commit_sha: eb220c4dcf64babefc1bfc287edda91ab04132ed
+  repo_last_commit: 2026-10-26
+  repo_last_commit_sha: eb220c4dcf64babefc1bfc287edda91ab04132ed
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: windows-agent-arena
+  name: Windows Agent Arena
+  github: microsoft/WindowsAgentArena
+  link: https://github.com/microsoft/WindowsAgentArena
+  authors: Rogerio Bonatti, Dan Zhao, Francesco Bonacci, and co-authors. Repository published by Microsoft.
+  type: benchmark
+  interface:
+  - desktop-windows
+  models: Agents you evaluate, not a model shipped as the product. The paper describes an agent called
+    Navi; this list did not run it.
+  runs_locally: 'no'
+  runs_locally_note: The arena is a Windows environment. The paper describes parallel runs in Azure. This
+    list did not start a Windows VM.
+  description: Windows benchmark for multimodal desktop agents. Tasks run in a real Windows environment
+    and cover the same kinds of applications a person would use. The paper is arXiv:2409.08264.
+  sources:
+  - https://github.com/microsoft/WindowsAgentArena
+  - https://arxiv.org/abs/2409.08264
+  github_description: Windows Agent Arena (WAA) 🪟 is a scalable OS platform for testing and benchmarking
+    of multi-modal AI agents.
+- stars: 1423
+  last_commit: 2026-10-28
+  last_commit_sha: 27a90ce815098f43414e93491e06907af468e45b
+  repo_last_commit: 2026-10-28
+  repo_last_commit_sha: 27a90ce815098f43414e93491e06907af468e45b
+  license_spdx: NOASSERTION
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: browsergym
+  name: BrowserGym
+  github: ServiceNow/BrowserGym
+  link: https://github.com/ServiceNow/BrowserGym
+  authors: Thibault Le Sellier De Chezelles, Maxime Gasse, Alexandre Drouin, and co-authors of the ecosystem
+    paper. Repository published by ServiceNow.
+  type: benchmark
+  interface:
+  - browser
+  models: Whatever agent you implement against the Gym API.
+  runs_locally: partial
+  runs_locally_note: The Python package runs locally and launches a browser. Some tasks it hosts depend
+    on external sites or accounts.
+  license_file_spdx: Apache-2.0
+  description: Gym environment from ServiceNow for training and scoring web agents. Other benchmarks,
+    including WorkArena, plug into it. The LICENSE file is Apache-2.0; the GitHub API reports NOASSERTION.
+    The ecosystem paper is arXiv:2412.05467.
+  sources:
+  - https://github.com/ServiceNow/BrowserGym
+  - https://arxiv.org/abs/2412.05467
+  github_description: BrowserGym, a Gym environment for web task automation
+- stars: 278
+  last_commit: 2026-09-28
+  last_commit_sha: e885130962f61fb64ac305497996a46cfc7d18f0
+  repo_last_commit: 2026-09-28
+  repo_last_commit_sha: e885130962f61fb64ac305497996a46cfc7d18f0
+  license_spdx: NOASSERTION
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: workarena
+  name: WorkArena
+  github: ServiceNow/WorkArena
+  link: https://github.com/ServiceNow/WorkArena
+  authors: Alexandre Drouin, Maxime Gasse, Massimo Caccia, and co-authors. Repository published by ServiceNow.
+  type: benchmark
+  interface:
+  - browser
+  models: Web agents that can run inside BrowserGym.
+  runs_locally: partial
+  runs_locally_note: The code is local, but the tasks target a knowledge-work web app and are designed
+    to run through BrowserGym.
+  license_file_spdx: Apache-2.0
+  description: Browser tasks about routine knowledge work, built to run in BrowserGym. The LICENSE file
+    is Apache-2.0; the GitHub API reports NOASSERTION. The paper is arXiv:2403.07718.
+  sources:
+  - https://github.com/ServiceNow/WorkArena
+  - https://arxiv.org/abs/2403.07718
+  github_description: 'WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?'
+- stars: 175
+  last_commit: 2026-08-22
+  last_commit_sha: acf203ae24386aa9bcc0da950c533c8c796dc38e
+  repo_last_commit: 2026-08-22
+  repo_last_commit_sha: acf203ae24386aa9bcc0da950c533c8c796dc38e
+  license_spdx: MIT
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: weavebench
+  name: WeaveBench
+  github: weavebench/WeaveBench
+  link: https://github.com/weavebench/WeaveBench
+  authors: Wanli Li, Bowen Zhou, Yunyao Yu, Zhou Xu, Yifan Yang, Dongsheng Li, and Caihua Shan.
+  type: benchmark
+  interface:
+  - desktop-linux
+  - browser
+  models: Computer-use agents that can mix a GUI with a terminal or code. The paper's own scores are not
+    repeated here.
+  runs_locally: partial
+  runs_locally_note: The paper says tasks run on a real Ubuntu desktop inside a CLI-agent runtime. This
+    list did not provision that runtime.
+  description: Benchmark of long-horizon tasks that make an agent combine a graphical interface with a
+    terminal or code in one trajectory. The README and the paper both describe 114 tasks across 8 work
+    domains. The paper is arXiv:2606.09426.
+  sources:
+  - https://github.com/weavebench/WeaveBench
+  - https://arxiv.org/abs/2606.09426
+  github_description: '[EMNLP 2026] WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use
+    Agents with Hybrid Interfaces'
+- stars: 238
+  last_commit: 2026-08-26
+  last_commit_sha: 8a295fd7aaf7c4164a4c56dfb7b2d52ba6040bac
+  repo_last_commit: 2026-08-26
+  repo_last_commit_sha: 8a295fd7aaf7c4164a4c56dfb7b2d52ba6040bac
+  license_spdx: Apache-2.0
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: qwen-cua
+  name: Qwen-CUA
+  github: xlang-ai/Qwen-CUA
+  link: https://github.com/xlang-ai/Qwen-CUA
+  authors: Dunjie Lu, Shuai Bai, Tianyi Bai, and co-authors. The repository description names the Qwen
+    Team and XLang Lab.
+  type: model
+  interface:
+  - desktop
+  - browser
+  models: The Qwen-CUA weights. The demo talks to an OpenAI-compatible multimodal endpoint.
+  runs_locally: partial
+  runs_locally_note: Weights are published and a local demo is in the repository. Running it still needs
+    a multimodal endpoint this list did not host.
+  description: Screenshot-driven computer-use model and a small runtime. It proposes keyboard and mouse
+    actions from the screen, without reading a DOM or an accessibility tree. Weights are linked from the
+    README. The technical report is arXiv:2608.02352. Scores in that report were not reproduced here.
+  sources:
+  - https://github.com/xlang-ai/Qwen-CUA
+  - https://arxiv.org/abs/2608.02352
+  github_description: 'Qwen-CUA: Native Computer Use for (Almost) Everything — a screenshot-driven agent
+    that operates computers with keyboard and mouse, jointly developed by the Qwen Team and XLang Lab.'
+- stars: 660
+  last_commit: 2026-10-06
+  last_commit_sha: 8488c564eea0525aaff5dea189bb03a9b529546e
+  repo_last_commit: 2026-10-06
+  repo_last_commit_sha: 8488c564eea0525aaff5dea189bb03a9b529546e
+  license_spdx: NOASSERTION
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  listed_on: 2026-10-29
+  test_status: not_tested
+  default_branch: main
+  id: agentlab
+  name: AgentLab
+  github: ServiceNow/AgentLab
+  link: https://github.com/ServiceNow/AgentLab
+  authors: ServiceNow (GitHub organization), in the BrowserGym ecosystem.
+  type: harness
+  interface:
+  - browser
+  models: Agents you implement. The framework is for running them across web tasks.
+  runs_locally: partial
+  runs_locally_note: The Python package installs locally. Reproducing a full benchmark still needs the
+    BrowserGym tasks and model credentials.
+  license_file_spdx: Apache-2.0
+  description: Framework from ServiceNow for building web agents and running them on benchmarks in the
+    BrowserGym ecosystem. The LICENSE file is Apache-2.0; the GitHub API reports NOASSERTION.
+  sources:
+  - https://github.com/ServiceNow/AgentLab
+  - https://arxiv.org/abs/2412.05467
+  github_description: 'AgentLab: An open-source framework for developing, testing, and benchmarking web
+    agents on diverse tasks, designed for scalability and reproducibility.'
+related_lists:
+- name: awesome-computer-use
+  github: ranpox/awesome-computer-use
+  link: https://github.com/ranpox/awesome-computer-use
+  note: Public collection of GUI-agent videos, posts, papers, and projects. This list does not reuse its
+    blurbs or its section order. Its default-branch commit is older than the 90-day window used here,
+    so it is not an entry.
+  stars: 587
+  last_commit: 2026-04-15
+  last_commit_sha: 1ef73a80c8bcebbeb1704b52982c858493d73cf6
+  repo_last_commit: 2026-04-15
+  repo_last_commit_sha: 1ef73a80c8bcebbeb1704b52982c858493d73cf6
+  license_spdx: null
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: true
+  default_branch: main
+  github_description: This is a collection of resources for computer-use GUI agents, including videos,
+    blogs, papers, and projects.
+- name: Awesome-CUA
+  github: reacher-z/Awesome-CUA
+  link: https://github.com/reacher-z/Awesome-CUA
+  note: Source-backed catalog of papers, models, datasets, benchmarks, and tools, with its own data files.
+    This list does not copy that text. On the day v1 was built the repository was under 1,000 stars; the
+    table has the count from the API.
+  stars: 268
+  last_commit: 2026-10-29
+  last_commit_sha: 682e60f93d3b739c2054475867df5a57d03008e5
+  repo_last_commit: 2026-10-29
+  repo_last_commit_sha: 682e60f93d3b739c2054475867df5a57d03008e5
+  license_spdx: NOASSERTION
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: false
+  default_branch: main
+  github_description: 'Open, source-backed catalog of computer-use agents: reviewed papers, GUI models,
+    datasets, benchmarks, tools, and reusable JSONL/SQLite data.'
+- name: acu
+  github: trycua/acu
+  link: https://github.com/trycua/acu
+  note: trycua's curated list of computer-use papers, projects, and tools. It is named here as a pointer.
+    None of its descriptions were copied.
+  stars: 1801
+  last_commit: 2025-09-26
+  last_commit_sha: 2a9b3fbdda601d339c5e76095b83b8642a0a04b5
+  repo_last_commit: 2025-09-26
+  repo_last_commit_sha: 2a9b3fbdda601d339c5e76095b83b8642a0a04b5
+  license_spdx: null
+  metadata_fetched_at: 2026-10-29T18:48:48Z
+  stale: true
+  default_branch: main
+  github_description: A curated list of resources about AI agents for Computer Use, including research
+    papers, projects, frameworks, and tools.

@@ -1,0 +1,66 @@
+name: Refresh metadata
+
+on:
+  schedule:
+    # Weekly. Opens a pull request; never pushes to main.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: metadata-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # contents: write is required to push the metadata-refresh branch.
+    # pull-requests: write is required to open the pull request. There is no
+    # permission to push to main.
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Refresh GitHub metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/refresh_metadata.py
+
+      - name: Rebuild README
+        run: python scripts/build_readme.py
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          token: ${{ github.token }}
+          base: main
+          branch: metadata-refresh
+          commit-message: "Refresh GitHub stars and last-commit dates"
+          title: "Refresh GitHub stars and last-commit dates"
+          body: |
+            Weekly refresh of star counts, SPDX license ids, and last-commit dates from the GitHub API.
+
+            An entry is flagged stale when its tracked commit is 90 days old or older. This workflow opens a pull request. It does not push to main.
+          add-paths: |
+            data/entries.yml
+            data/excluded.yml
+            README.md
+            docs/compare.html
+            assets/stars.png
+            assets/social-preview.png
