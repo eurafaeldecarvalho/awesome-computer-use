@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Computer-use task</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem auto; max-width: 32rem; }
+    label { display: block; margin-top: 0.8rem; }
+    input { width: 100%; padding: 0.4rem; box-sizing: border-box; }
+    button { margin-top: 1rem; }
+    #status { margin-top: 1rem; font-weight: bold; }
+    pre { background: #f4f4f4; padding: 0.8rem; }
+  </style>
+</head>
+<body>
+  <h1>Shared task form</h1>
+  <p>Fill the three fields, then download the CSV. This page is static and does not call any other site.</p>
+  <form id="task-form">
+    <label for="full_name">Full name</label>
+    <input id="full_name" name="full_name" autocomplete="name" required>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+    <label for="city">City</label>
+    <input id="city" name="city" autocomplete="address-level2" required>
+    <button id="download" type="submit">Download CSV</button>
+  </form>
+  <p id="status" role="status"></p>
+  <pre id="csv" hidden></pre>
+  <script>
+    function csvCell(value) {
+      const text = String(value);
+      if (/[",\n]/.test(text)) {
+        return '"' + text.replaceAll('"', '""') + '"';
+      }
+      return text;
+    }
+
+    document.getElementById("task-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const name = document.getElementById("full_name").value;
+      const email = document.getElementById("email").value;
+      const city = document.getElementById("city").value;
+      const csv = "full_name,email,city\n" + [name, email, city].map(csvCell).join(",") + "\n";
+      document.getElementById("csv").hidden = false;
+      document.getElementById("csv").textContent = csv;
+      const blob = new Blob([csv], { type: "text/csv" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "result.csv";
+      link.id = "csv-download";
+      document.body.appendChild(link);
+      link.click();
+      document.getElementById("status").textContent = "Saved result.csv";
+    });
+  </script>
+</body>
+</html>
