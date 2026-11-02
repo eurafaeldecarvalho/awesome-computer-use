@@ -1,15 +1,15 @@
 schema_version: 1
-collected_on: 2026-10-29
+collected_on: 2026-11-02
 stale_after_days: 90
 include_commit_on_or_after: 2026-08-01
 entries:
-- stars: 119479
-  last_commit: 2026-10-26
-  last_commit_sha: 2cc71890e65056b67fdb29d98bb407749c15bb08
-  repo_last_commit: 2026-10-26
-  repo_last_commit_sha: 2cc71890e65056b67fdb29d98bb407749c15bb08
+- stars: 119792
+  last_commit: 2026-10-30
+  last_commit_sha: b49a68e4060acb226da8f784194fef301c53a6d7
+  repo_last_commit: 2026-10-30
+  repo_last_commit_sha: b49a68e4060acb226da8f784194fef301c53a6d7
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -33,13 +33,13 @@ entries:
   - https://github.com/browser-use/browser-use
   github_description: 'Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth
     browsers and a hosted agent API.'
-- stars: 23881
-  last_commit: 2026-09-18
-  last_commit_sha: 1231850a0bf1a0c0341fe408ef1668dbbfdfac46
-  repo_last_commit: 2026-09-18
-  repo_last_commit_sha: 1231850a0bf1a0c0341fe408ef1668dbbfdfac46
+- stars: 24059
+  last_commit: 2026-10-31
+  last_commit_sha: 8251e272398011cdef648965204d1c20cd838333
+  repo_last_commit: 2026-10-31
+  repo_last_commit_sha: 8251e272398011cdef648965204d1c20cd838333
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -63,13 +63,13 @@ entries:
   sources:
   - https://github.com/browser-use/jev-ultrafast
   github_description: Fastest and cheapest web agent
-- stars: 437
+- stars: 464
   last_commit: 2026-10-20
   last_commit_sha: 5569fba817446c39b662a0b9678188a9ba036d91
   repo_last_commit: 2026-10-20
   repo_last_commit_sha: 5569fba817446c39b662a0b9678188a9ba036d91
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -92,13 +92,13 @@ entries:
   sources:
   - https://github.com/browser-use/browser-use-pi
   github_description: A tiny TypeScript web agent, hill climbed on real browser evals.
-- stars: 23299
-  last_commit: 2026-10-29
-  last_commit_sha: 967fd75ba20dcb8c45be5f90ebd90d5425b7f19a
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: 967fd75ba20dcb8c45be5f90ebd90d5425b7f19a
+- stars: 23333
+  last_commit: 2026-11-02
+  last_commit_sha: 40b26bde12a66be1a03c41a5d24d8092fa9364d9
+  repo_last_commit: 2026-11-02
+  repo_last_commit_sha: 40b26bde12a66be1a03c41a5d24d8092fa9364d9
   license_spdx: AGPL-3.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -121,13 +121,13 @@ entries:
   sources:
   - https://github.com/Skyvern-AI/skyvern
   github_description: Automate browser based workflows with AI
-- stars: 12814
+- stars: 12853
   last_commit: 2026-10-21
   last_commit_sha: 0fff0e634869dab72027435b4586e62300185d41
   repo_last_commit: 2026-10-21
   repo_last_commit_sha: 0fff0e634869dab72027435b4586e62300185d41
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -154,13 +154,13 @@ entries:
   sources:
   - https://github.com/simular-ai/Agent-S
   github_description: 'Agent S: the state-of-the-art open source computer use agents'
-- stars: 39437
+- stars: 39514
   last_commit: 2026-10-09
   last_commit_sha: 3ac2cb8d946d78d5ff92ad17b318eaafa18c178c
   repo_last_commit: 2026-10-09
   repo_last_commit_sha: 3ac2cb8d946d78d5ff92ad17b318eaafa18c178c
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -185,13 +185,13 @@ entries:
   - https://github.com/bytedance/UI-TARS-desktop
   github_description: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and
     Agent Infra'
-- stars: 3175
+- stars: 3177
   last_commit: 2026-09-14
   last_commit_sha: 88c777bddfec9796667445873886a3563aa27246
   repo_last_commit: 2026-09-14
   repo_last_commit_sha: 88c777bddfec9796667445873886a3563aa27246
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -215,13 +215,13 @@ entries:
   sources:
   - https://github.com/TurixAI/TuriX-CUA
   github_description: This is the official website for TuriX Computer-use-Agent
-- stars: 3969
+- stars: 4003
   last_commit: 2026-09-17
   last_commit_sha: afb89b9d67a2d7c49ca09298191fbebe9ded238a
   repo_last_commit: 2026-09-17
   repo_last_commit_sha: afb89b9d67a2d7c49ca09298191fbebe9ded238a
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -245,13 +245,13 @@ entries:
   - https://github.com/yuruotong1/autoMate
   github_description: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven
     local automation assistant that uses natural language to make computers work by themselves
-- stars: 807
-  last_commit: 2026-10-28
-  last_commit_sha: 0b4a9f368ff52b8413cb55b1f0a97fd4256f84f8
-  repo_last_commit: 2026-10-28
-  repo_last_commit_sha: 0b4a9f368ff52b8413cb55b1f0a97fd4256f84f8
+- stars: 1077
+  last_commit: 2026-11-02
+  last_commit_sha: 5feca68b44efc50ff4b9af81cc4ff276428bd4ea
+  repo_last_commit: 2026-11-02
+  repo_last_commit_sha: 5feca68b44efc50ff4b9af81cc4ff276428bd4ea
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -280,13 +280,13 @@ entries:
   github_description: Automate with computer-use agent (ComputerUse / CUA) for macOS, Windows, Linux,
     Browser, iOS & Android. It sees the screen, clicks, types, browses and writes the code too. One agent,
     every computer.
-- stars: 548
+- stars: 571
   last_commit: 2026-10-26
   last_commit_sha: 55c33aea792b48b9c1330a514bfcc8f6d3ecc704
   repo_last_commit: 2026-10-26
   repo_last_commit_sha: 55c33aea792b48b9c1330a514bfcc8f6d3ecc704
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -312,13 +312,13 @@ entries:
   - https://arxiv.org/abs/2610.22200
   github_description: An open-source stack for generalist computer-use agents, combining code execution,
     GUI interaction, and cross-device control.
-- stars: 14203
+- stars: 14215
   last_commit: 2026-10-24
   last_commit_sha: 19dc8e8a9be6ed06c0ef9ec7de8d84bf6a88c458
   repo_last_commit: 2026-10-24
   repo_last_commit_sha: 19dc8e8a9be6ed06c0ef9ec7de8d84bf6a88c458
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -340,13 +340,13 @@ entries:
   - https://github.com/nanobrowser/nanobrowser
   github_description: Open-source AI agent for web automation. Use your real, logged-in browser to automate
     daily tasks.
-- stars: 10294
+- stars: 10301
   last_commit: 2026-10-19
   last_commit_sha: eb8165a2efb1b34d66a28ecebf8ca97ae67cbb79
   repo_last_commit: 2026-10-19
   repo_last_commit_sha: eb8165a2efb1b34d66a28ecebf8ca97ae67cbb79
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -370,13 +370,13 @@ entries:
   sources:
   - https://github.com/OthersideAI/self-operating-computer
   github_description: A framework to enable a multimodal model to operate a computer.
-- stars: 125
+- stars: 127
   last_commit: 2026-10-26
   last_commit_sha: ac985d222ed8e57ce40bfaeb69d5769e776445d6
   repo_last_commit: 2026-10-26
   repo_last_commit_sha: ac985d222ed8e57ce40bfaeb69d5769e776445d6
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -397,13 +397,13 @@ entries:
   - https://github.com/deskmind-ai/deskmind
   github_description: Small enough to run on your Mac. Smart enough to ask. An open-source computer use
     agent for macOS, with local models (MLX) that see, decide and act. 得心，应手。
-- stars: 2391
+- stars: 2393
   last_commit: 2026-10-23
   last_commit_sha: ee1025911c36e1f28bb3400c7d81170a8482f35d
   repo_last_commit: 2026-10-23
   repo_last_commit_sha: ee1025911c36e1f28bb3400c7d81170a8482f35d
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -432,7 +432,7 @@ entries:
   repo_last_commit: 2026-10-13
   repo_last_commit_sha: d66db293ac513a98abe1fd5c58a69b5130e4a996
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -455,13 +455,13 @@ entries:
   - https://github.com/e2b-dev/surf
   github_description: Surf is a computer use AI agent powered by OpenAI that interacts with a E2B's virtual
     desktop environment through natural language instructions
-- stars: 19048
+- stars: 19078
   last_commit: 2026-10-29
   last_commit_sha: 12349bb27f860fa924780ba6c0d8c011dfecf540
   repo_last_commit: 2026-10-29
   repo_last_commit_sha: 1a18c340ca42b9137d991637afe867bdcf70a9ce
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -487,13 +487,13 @@ entries:
   - https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo
   github_description: A collection of projects designed to help developers quickly get started with building
     deployable applications using the Claude API
-- stars: 31293
-  last_commit: 2026-10-29
-  last_commit_sha: b269d38db580afbd7b9f3b1d8409d0df540e1b21
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: b269d38db580afbd7b9f3b1d8409d0df540e1b21
+- stars: 31547
+  last_commit: 2026-11-02
+  last_commit_sha: 504c0a4828d2687905cd7b82fbc9e55207e35e86
+  repo_last_commit: 2026-11-02
+  repo_last_commit_sha: 504c0a4828d2687905cd7b82fbc9e55207e35e86
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -519,13 +519,13 @@ entries:
   - https://github.com/trycua/cua
   github_description: Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks
     for training, evaluation, and data generation.
-- stars: 25858
-  last_commit: 2026-10-29
-  last_commit_sha: 44d99dfbdd24baaf06986492792348582266d8f0
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: 44d99dfbdd24baaf06986492792348582266d8f0
+- stars: 25901
+  last_commit: 2026-10-30
+  last_commit_sha: b7a4b899079f198a0ee78a6dcb62ad02f545cf49
+  repo_last_commit: 2026-10-30
+  repo_last_commit_sha: b7a4b899079f198a0ee78a6dcb62ad02f545cf49
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -548,13 +548,13 @@ entries:
   - https://github.com/browserbase/stagehand
   github_description: The SDK to extract data and interact with any site on the web. Get started with
     Claude Code, Codex, Eve, Mastra, and more.
-- stars: 18701
-  last_commit: 2026-10-25
-  last_commit_sha: 4ced8e0087d2d45ea2d08c00cb62449b2d94a90e
-  repo_last_commit: 2026-10-25
-  repo_last_commit_sha: 4ced8e0087d2d45ea2d08c00cb62449b2d94a90e
+- stars: 18811
+  last_commit: 2026-11-02
+  last_commit_sha: 91a4b629e5b3bc9b72c2b60129a409e709a5d03b
+  repo_last_commit: 2026-11-02
+  repo_last_commit_sha: 91a4b629e5b3bc9b72c2b60129a409e709a5d03b
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -577,13 +577,13 @@ entries:
   - https://github.com/browser-use/browser-harness
   github_description: Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt
     to set up. Open source, MIT.
-- stars: 973
+- stars: 1001
   last_commit: 2026-10-15
   last_commit_sha: 43d9edf8286153482348b15f7d8c22d9e38f6c6b
   repo_last_commit: 2026-10-15
   repo_last_commit_sha: 43d9edf8286153482348b15f7d8c22d9e38f6c6b
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -603,13 +603,13 @@ entries:
   sources:
   - https://github.com/browser-use/macos-harness
   github_description: The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.
-- stars: 4241
+- stars: 4244
   last_commit: 2026-10-23
   last_commit_sha: f00e27edd7f17600463ce37effa951f42ccb91c8
   repo_last_commit: 2026-10-23
   repo_last_commit_sha: f00e27edd7f17600463ce37effa951f42ccb91c8
   license_spdx: AGPL-3.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -632,13 +632,13 @@ entries:
   sources:
   - https://github.com/browser-use/workflow-use
   github_description: ⚙️ Create and run workflows (RPA 2.0)
-- stars: 1914
+- stars: 1919
   last_commit: 2026-10-19
   last_commit_sha: 6dd34b40acc1d002696ccd41aaf0a1f2f2be290c
   repo_last_commit: 2026-10-19
   repo_last_commit_sha: 6dd34b40acc1d002696ccd41aaf0a1f2f2be290c
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -668,7 +668,7 @@ entries:
   repo_last_commit: 2026-10-25
   repo_last_commit_sha: cc0c96e9135d22a921c53819e72a4100729eae18
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -693,13 +693,13 @@ entries:
   sources:
   - https://github.com/langchain-ai/langgraph-cua-py
   github_description: An implementation of a computer use agent (CUA) using LangGraph
-- stars: 1846
-  last_commit: 2026-10-29
-  last_commit_sha: c3cc84de2aee993c06cf8db6fa5f60d28af1bad3
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: c3cc84de2aee993c06cf8db6fa5f60d28af1bad3
+- stars: 1858
+  last_commit: 2026-10-31
+  last_commit_sha: e3117c14b59207f6a5a24147f48f3166b010eb4d
+  repo_last_commit: 2026-10-31
+  repo_last_commit_sha: e3117c14b59207f6a5a24147f48f3166b010eb4d
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -730,7 +730,7 @@ entries:
   repo_last_commit: 2026-10-08
   repo_last_commit_sha: 6b353039111c08c2c64c5229083606941e364eaf
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -753,13 +753,13 @@ entries:
   sources:
   - https://github.com/shhivv/arc-cua
   github_description: Superfast action layer for computer-use agents, on MacOS.
-- stars: 15431
-  last_commit: 2026-10-29
-  last_commit_sha: ca96b51d504f760eb9e6a4d13633d276d9b22738
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: ca96b51d504f760eb9e6a4d13633d276d9b22738
+- stars: 15462
+  last_commit: 2026-10-30
+  last_commit_sha: 1527e33dac3a289309c3cbc5a1e6745ee05bbf98
+  repo_last_commit: 2026-10-30
+  repo_last_commit_sha: 1527e33dac3a289309c3cbc5a1e6745ee05bbf98
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -782,13 +782,13 @@ entries:
   sources:
   - https://github.com/web-infra-dev/midscene
   github_description: See interfaces like a human. E2E testing in natural language.
-- stars: 2049
-  last_commit: 2026-10-29
-  last_commit_sha: 083a4cd758ee9417a465d948bcc1587e9f453581
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: 083a4cd758ee9417a465d948bcc1587e9f453581
+- stars: 2051
+  last_commit: 2026-11-02
+  last_commit_sha: 26d0db2aa5063f339a635cc1569ee9726ff6f48e
+  repo_last_commit: 2026-11-02
+  repo_last_commit_sha: 26d0db2aa5063f339a635cc1569ee9726ff6f48e
   license_spdx: NOASSERTION
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -813,13 +813,13 @@ entries:
   - https://github.com/nottelabs/notte
   github_description: Cloud browser infrastructure and web automation platform for your AI and coding
     agents
-- stars: 44847
-  last_commit: 2026-10-29
-  last_commit_sha: 1453dd37a40c730fe00f592bc32198a896ff8747
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: 1453dd37a40c730fe00f592bc32198a896ff8747
+- stars: 45174
+  last_commit: 2026-10-31
+  last_commit_sha: 5868f7c05020e047c00e68e4abf9253cce864f41
+  repo_last_commit: 2026-10-31
+  repo_last_commit_sha: 5868f7c05020e047c00e68e4abf9253cce864f41
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -849,13 +849,13 @@ entries:
       fields and saved result.csv. The shared task stays not tested.
     log: logs/agent-browser/2026-10-29.md
   github_description: Browser automation CLI for AI agents
-- stars: 38813
-  last_commit: 2026-10-22
-  last_commit_sha: 0c4107acbecb75472b23c05c0e42471a0011874f
-  repo_last_commit: 2026-10-22
-  repo_last_commit_sha: 0c4107acbecb75472b23c05c0e42471a0011874f
+- stars: 38961
+  last_commit: 2026-11-01
+  last_commit_sha: ec572ee8354015293bed67145db21eed386e876d
+  repo_last_commit: 2026-11-01
+  repo_last_commit_sha: ec572ee8354015293bed67145db21eed386e876d
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -876,13 +876,13 @@ entries:
   sources:
   - https://github.com/microsoft/playwright-mcp
   github_description: Playwright MCP server
-- stars: 14750
-  last_commit: 2026-10-19
-  last_commit_sha: b1a5903c5b633b8c9f843ad7b629c2a78437040c
-  repo_last_commit: 2026-10-19
-  repo_last_commit_sha: b1a5903c5b633b8c9f843ad7b629c2a78437040c
+- stars: 14862
+  last_commit: 2026-11-01
+  last_commit_sha: c2d8d199459d1480491bebf0a6b3587136b673fa
+  repo_last_commit: 2026-11-01
+  repo_last_commit_sha: c2d8d199459d1480491bebf0a6b3587136b673fa
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -912,13 +912,13 @@ entries:
     log: logs/playwright-cli/2026-10-29.md
   github_description: CLI for common Playwright actions. Record and generate Playwright code, inspect
     selectors and take screenshots.
-- stars: 54429
-  last_commit: 2026-10-29
-  last_commit_sha: 3c609da38a39067f4a0b885ce81968eb958b76a8
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: 3c609da38a39067f4a0b885ce81968eb958b76a8
+- stars: 54632
+  last_commit: 2026-10-30
+  last_commit_sha: 8d009e854f8aa55b1ec31628e836d4d4731b8ec8
+  repo_last_commit: 2026-10-30
+  repo_last_commit_sha: 8d009e854f8aa55b1ec31628e836d4d4731b8ec8
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -939,13 +939,13 @@ entries:
   sources:
   - https://github.com/ChromeDevTools/chrome-devtools-mcp
   github_description: Chrome DevTools for coding agents
-- stars: 7888
-  last_commit: 2026-10-29
-  last_commit_sha: 95cef883cc13e75ec03a2a519a94f79de946d0d2
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: 95cef883cc13e75ec03a2a519a94f79de946d0d2
+- stars: 7903
+  last_commit: 2026-10-31
+  last_commit_sha: 9fb9b9239325794b3e2d2a56c7e54c400a7d30bd
+  repo_last_commit: 2026-10-31
+  repo_last_commit_sha: 9fb9b9239325794b3e2d2a56c7e54c400a7d30bd
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -968,13 +968,13 @@ entries:
   - https://github.com/steel-dev/steel-browser
   github_description: 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included
     browser sandbox that lets you automate the web without worrying about infrastructure.
-- stars: 1544
+- stars: 1550
   last_commit: 2026-10-27
   last_commit_sha: 053ffe2ff7dc472d3d887d0906c9523648c349e9
   repo_last_commit: 2026-10-27
   repo_last_commit_sha: 053ffe2ff7dc472d3d887d0906c9523648c349e9
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -998,13 +998,13 @@ entries:
   - https://github.com/e2b-dev/desktop
   github_description: E2B Desktop Sandbox for LLMs. E2B Sandbox with desktop graphical environment that
     you can connect to any LLM for secure computer use.
-- stars: 37558
-  last_commit: 2026-10-29
-  last_commit_sha: bfb784fdfb7692db785acbe6d2af6a59d6fdff87
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: bfb784fdfb7692db785acbe6d2af6a59d6fdff87
+- stars: 40482
+  last_commit: 2026-11-02
+  last_commit_sha: 0e162ada47378afb988f4da236946b58c6bbd9f5
+  repo_last_commit: 2026-11-02
+  repo_last_commit_sha: 0e162ada47378afb988f4da236946b58c6bbd9f5
   license_spdx: AGPL-3.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1025,13 +1025,13 @@ entries:
   sources:
   - https://github.com/lightpanda-io/browser
   github_description: 'Lightpanda: the headless browser designed for AI and automation'
-- stars: 767
-  last_commit: 2026-10-29
-  last_commit_sha: ab17e476319bf42662138751a81a8125cee54255
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: ab17e476319bf42662138751a81a8125cee54255
+- stars: 785
+  last_commit: 2026-11-01
+  last_commit_sha: aed689cbcbaa8a04796125647297a97514061da1
+  repo_last_commit: 2026-11-01
+  repo_last_commit_sha: aed689cbcbaa8a04796125647297a97514061da1
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1061,13 +1061,13 @@ entries:
     log: logs/computer-use-linux/2026-10-29.md
   github_description: Native Linux desktop control for AI agents (MCP, Pi, CLI) — semantic AT-SPI trees,
     screenshots, window targeting, and input across GNOME, KDE, Hyprland, niri, COSMIC, i3, and X11.
-- stars: 3241
+- stars: 3247
   last_commit: 2026-10-24
   last_commit_sha: 044bc33901cb893808e3f91ebc9a17ed8e54b44c
   repo_last_commit: 2026-10-24
   repo_last_commit_sha: 044bc33901cb893808e3f91ebc9a17ed8e54b44c
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1091,13 +1091,13 @@ entries:
   - https://arxiv.org/abs/2404.07972
   github_description: '[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in
     Real Computer Environments'
-- stars: 401
+- stars: 406
   last_commit: 2026-10-15
   last_commit_sha: d9953673daf55381237e058fd9388cc2d74c5538
   repo_last_commit: 2026-10-15
   repo_last_commit_sha: d9953673daf55381237e058fd9388cc2d74c5538
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1121,13 +1121,13 @@ entries:
   - https://github.com/xlang-ai/OSWorld-V2
   - https://arxiv.org/abs/2606.29537
   github_description: 'OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks'
-- stars: 913
+- stars: 915
   last_commit: 2026-10-26
   last_commit_sha: eb220c4dcf64babefc1bfc287edda91ab04132ed
   repo_last_commit: 2026-10-26
   repo_last_commit_sha: eb220c4dcf64babefc1bfc287edda91ab04132ed
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1152,13 +1152,13 @@ entries:
   - https://arxiv.org/abs/2409.08264
   github_description: Windows Agent Arena (WAA) 🪟 is a scalable OS platform for testing and benchmarking
     of multi-modal AI agents.
-- stars: 1423
+- stars: 1425
   last_commit: 2026-10-28
   last_commit_sha: 27a90ce815098f43414e93491e06907af468e45b
   repo_last_commit: 2026-10-28
   repo_last_commit_sha: 27a90ce815098f43414e93491e06907af468e45b
   license_spdx: NOASSERTION
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1184,13 +1184,13 @@ entries:
   - https://github.com/ServiceNow/BrowserGym
   - https://arxiv.org/abs/2412.05467
   github_description: BrowserGym, a Gym environment for web task automation
-- stars: 278
+- stars: 279
   last_commit: 2026-09-28
   last_commit_sha: e885130962f61fb64ac305497996a46cfc7d18f0
   repo_last_commit: 2026-09-28
   repo_last_commit_sha: e885130962f61fb64ac305497996a46cfc7d18f0
   license_spdx: NOASSERTION
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1220,7 +1220,7 @@ entries:
   repo_last_commit: 2026-08-22
   repo_last_commit_sha: acf203ae24386aa9bcc0da950c533c8c796dc38e
   license_spdx: MIT
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1247,13 +1247,13 @@ entries:
   - https://arxiv.org/abs/2606.09426
   github_description: '[EMNLP 2026] WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use
     Agents with Hybrid Interfaces'
-- stars: 238
+- stars: 242
   last_commit: 2026-08-26
   last_commit_sha: 8a295fd7aaf7c4164a4c56dfb7b2d52ba6040bac
   repo_last_commit: 2026-08-26
   repo_last_commit_sha: 8a295fd7aaf7c4164a4c56dfb7b2d52ba6040bac
   license_spdx: Apache-2.0
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1280,13 +1280,13 @@ entries:
   - https://arxiv.org/abs/2608.02352
   github_description: 'Qwen-CUA: Native Computer Use for (Almost) Everything — a screenshot-driven agent
     that operates computers with keyboard and mouse, jointly developed by the Qwen Team and XLang Lab.'
-- stars: 660
+- stars: 661
   last_commit: 2026-10-06
   last_commit_sha: 8488c564eea0525aaff5dea189bb03a9b529546e
   repo_last_commit: 2026-10-06
   repo_last_commit_sha: 8488c564eea0525aaff5dea189bb03a9b529546e
   license_spdx: NOASSERTION
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   listed_on: 2026-10-29
   test_status: not_tested
@@ -1324,7 +1324,7 @@ related_lists:
   repo_last_commit: 2026-04-15
   repo_last_commit_sha: 1ef73a80c8bcebbeb1704b52982c858493d73cf6
   license_spdx: null
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: true
   default_branch: main
   github_description: This is a collection of resources for computer-use GUI agents, including videos,
@@ -1335,13 +1335,13 @@ related_lists:
   note: Source-backed catalog of papers, models, datasets, benchmarks, and tools, with its own data files.
     This list does not copy that text. On the day v1 was built the repository was under 1,000 stars; the
     table has the count from the API.
-  stars: 268
-  last_commit: 2026-10-29
-  last_commit_sha: 682e60f93d3b739c2054475867df5a57d03008e5
-  repo_last_commit: 2026-10-29
-  repo_last_commit_sha: 682e60f93d3b739c2054475867df5a57d03008e5
+  stars: 376
+  last_commit: 2026-11-02
+  last_commit_sha: de5fba6ba7fda7fa42fd783e9ec11b5f9965eafc
+  repo_last_commit: 2026-11-02
+  repo_last_commit_sha: de5fba6ba7fda7fa42fd783e9ec11b5f9965eafc
   license_spdx: NOASSERTION
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: false
   default_branch: main
   github_description: 'Open, source-backed catalog of computer-use agents: reviewed papers, GUI models,
@@ -1351,13 +1351,13 @@ related_lists:
   link: https://github.com/trycua/acu
   note: trycua's curated list of computer-use papers, projects, and tools. It is named here as a pointer.
     None of its descriptions were copied.
-  stars: 1801
+  stars: 1805
   last_commit: 2025-09-26
   last_commit_sha: 2a9b3fbdda601d339c5e76095b83b8642a0a04b5
   repo_last_commit: 2025-09-26
   repo_last_commit_sha: 2a9b3fbdda601d339c5e76095b83b8642a0a04b5
   license_spdx: null
-  metadata_fetched_at: 2026-10-29T18:48:48Z
+  metadata_fetched_at: 2026-11-02T06:38:09Z
   stale: true
   default_branch: main
   github_description: A curated list of resources about AI agents for Computer Use, including research
